@@ -11,6 +11,8 @@ def main():
   #print(quotes[13])
   last = len(quotes)-1
   rnd = random.randint(0, last)
+  print(quotes[rnd], end ='' )
+  rnd = random.randint(0, last)
   print(quotes[rnd])
 
 if __name__== "__main__":
