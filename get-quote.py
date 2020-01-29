@@ -1,3 +1,5 @@
+import random
+
 def main():
   #print("Keep it logically awesome.")
 
@@ -6,7 +8,10 @@ def main():
   f.close()
 
   #print(quotes)
-  print(quotes[0])
+  #print(quotes[13])
+  last = len(quotes)-1
+  rnd = random.randint(0, last)
+  print(quotes[rnd])
 
 if __name__== "__main__":
   main()
